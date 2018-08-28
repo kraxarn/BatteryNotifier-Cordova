@@ -7,6 +7,9 @@ function onDeviceReady()
 {
     console.log("Device ready!")
 
+    // Enable background mode
+    window.cordova.plugins.backgroundMode.enable()
+
     // Handle pause and resume events
     document.addEventListener("pause", onPause, false)
     document.addEventListener("resume", onResume, false)

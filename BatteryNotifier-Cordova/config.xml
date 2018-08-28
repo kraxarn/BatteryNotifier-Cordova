@@ -94,4 +94,5 @@
     <engine name="android" spec="5.2.1" />
     <engine name="windows" spec="^4.4.2" />
     <engine name="ios" spec="^4.3.0" />
+    <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
 </widget>

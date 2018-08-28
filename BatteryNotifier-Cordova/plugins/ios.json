@@ -12,7 +12,14 @@
     },
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "io.cordova.myapp9f474e"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "io.cordova.myapp9f474e"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.cordova.myapp9f474e"
+    }
+  }
 }
