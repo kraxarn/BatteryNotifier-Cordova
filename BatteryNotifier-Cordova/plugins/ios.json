@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.myapp9f474e"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "io.cordova.myapp9f474e"
     }
   },
   "dependent_plugins": {}

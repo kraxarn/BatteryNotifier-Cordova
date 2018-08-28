@@ -1,4 +1,77 @@
 body {
 	/* Default background color */
-	background-color: black;
+	background-color: #212121;
+	font-family: sans-serif;
+}
+
+#settings {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	bottom: 10%;
+	padding: 16px;
+	background-color: #eceff1;
+	width: 80%;
+	border-radius: 8px;
+}
+
+.spacer {
+	height: 12px;
+}
+
+td {
+	padding: 2px;
+}
+
+input[type="range"] {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+/* Battery status */
+
+#batteryLevel {
+	position: fixed;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, 0);
+
+	color: white;
+	text-align: center;
+}
+
+#batteryLevel img {
+	width: 96px;
+}
+
+/* Custom range input */
+
+input[type=range] {
+	-webkit-appearance: none;
+	margin: 18px 0;
+	width: 100%;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 2px;
+	background-color: #b0bec5;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+	border-radius: 50%;
+	background-color: #90a4ae;
 }

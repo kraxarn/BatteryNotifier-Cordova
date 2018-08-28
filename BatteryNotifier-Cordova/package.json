@@ -1,12 +1,13 @@
 {
-    "name": "BatteryNotifier-Cordova",
+    "name": "BatteryNotifier",
     "version": "1.0.0",
     "private": true,
     "dependencies": {
         "cordova-android": "5.2.1",
         "cordova-ios": "^4.3.0",
+        "cordova-plugin-battery-status": "^2.0.2",
         "cordova-plugin-whitelist": "~1.2.2",
-        "cordova-windows": "4.4.2"
+        "cordova-windows": "^4.4.2"
     },
     "cordova": {
         "platforms": [
@@ -15,7 +16,8 @@
             "ios"
         ],
         "plugins": {
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-battery-status": {}
         }
     }
 }

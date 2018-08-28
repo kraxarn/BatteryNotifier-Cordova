@@ -15,11 +15,35 @@
 
 <body>
 
+<div id="batteryLevel">
+	<img id="currentBattery" src="img/0.svg"/>
+	<p id="currentBatteryLevel"> 0% </p>
+</div>
 
+<table id="settings">
+	<tr>
+		<td> Low Battery </td>
+		<td class="textCenter"> <input id="lowBatteryEnabled" type="checkbox" checked/> </td>
+	</tr>
+	<tr>
+		<td> <input id="lowBatteryLevel" type="range" min="0" max="100" step="5" value="50"/> </td>
+		<td id="lowBatteryLabel" class="textCenter"> 50% </td>
+	</tr>
+	<tr>
+		<td colspan="2" class="spacer"> </td>
+	</tr>
+	<tr>
+		<td> High Battery </td>
+		<td class="textCenter"> <input id="highBatteryEnabled" type="checkbox" checked/> </td>
+	</tr>
+	<tr>
+		<td> <input id="highBatteryLevel" type="range" min="0" max="100" step="5" value="60"/> </td>
+		<td id="highBatteryLabel" class="textCenter"> 60% </td>
+	</tr>
+</table>
 
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="cordova.js"> </script>
+<script type="text/javascript" src="js/main.js"> </script>
 
 </body>
-
 </html>
