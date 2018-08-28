@@ -37,6 +37,15 @@ function onBatteryStatus(status)
     
     window.currentBattery.src = `img/${Math.round(status.level / 10) * 10}.svg`
     window.currentBatteryLevel.textContent = `${status.level}%`
+
+    // Send notification
+    window.cordova.plugins.notification.local.schedule({
+        title: "Battery Charged",
+        text: `Battery is now at ${Math.round(status.level)}%`,
+        actions: [
+            { id: "yes", title: "OK" }
+        ]
+    })
 }
 
 // Vars

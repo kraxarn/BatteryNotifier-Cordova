@@ -6,8 +6,10 @@
         "cordova-android": "5.2.1",
         "cordova-ios": "^4.3.0",
         "cordova-plugin-background-mode": "^0.7.2",
+        "cordova-plugin-badge": "^0.8.7",
         "cordova-plugin-battery-status": "^2.0.2",
         "cordova-plugin-device": "^2.0.2",
+        "cordova-plugin-local-notification": "^0.9.0-beta.2",
         "cordova-plugin-whitelist": "~1.2.2",
         "cordova-windows": "^4.4.2"
     },
@@ -20,7 +22,8 @@
         "plugins": {
             "cordova-plugin-whitelist": {},
             "cordova-plugin-battery-status": {},
-            "cordova-plugin-background-mode": {}
+            "cordova-plugin-background-mode": {},
+            "cordova-plugin-local-notification": {}
         }
     }
 }

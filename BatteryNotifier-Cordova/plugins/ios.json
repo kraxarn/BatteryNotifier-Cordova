@@ -15,10 +15,16 @@
     },
     "cordova-plugin-background-mode": {
       "PACKAGE_NAME": "io.cordova.myapp9f474e"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "io.cordova.myapp9f474e"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.cordova.myapp9f474e"
+    },
+    "cordova-plugin-badge": {
       "PACKAGE_NAME": "io.cordova.myapp9f474e"
     }
   }
