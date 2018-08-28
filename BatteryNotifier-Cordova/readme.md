@@ -1,0 +1,1 @@
+﻿Cordova (and cross-platform) version of [BatteryNotifier](https://github.com/kraxarn/BatteryNotifier)
